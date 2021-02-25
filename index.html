@@ -9,26 +9,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   </head>
   <body>
+
     <header>
-      <div class="logo">
-        <img src="images/menu.svg" alt="" />
-      </div>
-      <span class="menu">Меню</span>
-      <div class="group">
+      <ul class="navigation">
+        <div class="logo">
+          <img src="images/menu.svg" alt="" />
+          <span class="menu">Меню</span>
+        </div>
+        <div class="group">
         <img src="images/Group.svg" alt="" />
+        
       </div>
       <span class="paragraph"
-        >Продажа недвижимости
-        <br />
+        >Продажа недвижимости<br/>
         в Москва-Сити
       </span>
+      <div class="num">
       <span class="phone">+7 (495) 199-19-99</span>
       <div class="btn">
         <button class="call"><span>Заказать звонок</span></button>
       </div>
+    </div>
+    </ul>
     </header>
-    <section id="herosection" class="herosection">
-      <div class="content">
+
+
+    <section id="herosection" class="herosection">  
+      <div class="content"> 
         <h1 class="headline">
           Агентство <br />
           с международным <br />
@@ -39,49 +46,85 @@
           недвижимость в Москве, районе Сити и области
         </p>
 
-        <div class="infobox1">
-          <span>17</span>
-          <p>
-            Работаем в <br />
-            17 странах
-          </p>
-        </div>
-        <div class="infobox2">
-          <span>1963</span>
-          <p>
-            Помогли 1963-м <br />
-            клиентам
-          </p>
-        </div>
-        <div class="infobox3">
-          <span>10</span>
-          <p>
-            Лет на рынке <br />
-            недвижимости
-          </p>
-        </div>
-      </div>
-      <div class="wine">
+        <div class="info-container">
+          <div class="infobox1">
+            <span>17</span>
+            <p>
+              Работаем в <br />
+              17 странах
+            </p>
+          </div>
+          <div class="infobox2">
+            <span>1963</span>
+            <p>
+              Помогли 1963-м <br />
+              клиентам
+            </p>
+          </div>
+          <div class="infobox3">
+            <span>10</span>
+            <p>
+              Лет на рынке <br />
+              недвижимости
+            </p>
+          </div>
+        </div> 
+        <div class="bonus"> 
         <img src="/images/Group2.svg" alt="">    
+        <span class="wine-text">
+          Пройди тест и получи в подарок бутылку <br/> шампанского <b>Veuve Clicquot</b>
+        </span>
       </div>
-      <span class="wine-text">
-        Пройди тест и получи в подарок бутылку <br/> шампанского <b>Veuve Clicquot</b>
-      </span>
       <div class="btn1">
         <button class="blue">Подобрать недвижимость</button>
       </div>
+        
+      </div>  
     </section>
 
     <section class="main">
+      <div class="quest5">      
       <div class="test">
         <h2>Пройдити тест из 5 вопросов</h2>
-        <span> Мы подберём 20 покупателей готовых купить вашу недвижимость в течение 24 часов</span>
+        <span> Мы подберём 20 покупателей готовых купить вашу недвижимость в течение 24 часов</span>  
       </div>
-      <div class="map">
-        <span>Выберите местоположение объекта</span>
-        <div class="city">
-         
-    </div>
+      <div class="maps">
+        <div class="map1">
+          <span>Выберите местоположение объекта</span>
+          <div class="pictures">
+            <img src="images/Rectangle3.png" alt="">
+            <img src="images/Rectangle4.png" alt="">        
+              <p class="first">В России</p>
+              <p class="second">За границой</p>
+            <hr>
+            <span class="questions">Вы ответили на: 0/5 вопросов</span>
+            <span class="questions2">Продолжить <i class="fas fa-arrow-right"></i></span>
+          </div>
+          
+        </div>
+        <div class="map2">  
+          <div class="checkbox">
+          <div class="item-1">
+            <img src="images/Group6.png" alt="">
+            <p>
+              Поможем Вам приобрести, продать или арендовать необходимую недвижимость
+            </p>
+          </div>
+          <div class="item-1">
+            <img src="images/Group6.png" alt="">
+            <p>
+              Продадим вашу недвижимость за 21 день или выкупим сами по стоимостьи в договоре
+            </p>
+          </div>
+          <div class="item-1">
+            <img src="images/Group6.png" alt="">
+            <p>
+              Забронируем понравившуюся квартиру и зафиксируем стоимость для вас на момент бронирования
+            </p>
+          </div>
+        </div>
+        </div>
+        </div>
     </section>
     
     <section class="uslugi">
@@ -132,7 +175,7 @@
        <button>От 50-100 млн</button>
        <button>Более 100 млн</button>
      </div>
-
+     
      <div class="rooms">
       <article class="card">
         <picture class="thumbnail">

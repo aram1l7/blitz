@@ -26,88 +26,57 @@
 
 header {
   position: relative;
-  margin: 0;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 10000;
   display: flex;
+  padding: 25px 50px;
+  margin-bottom: -175px;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
 }
 
-.herosection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 120vh;
-  min-height: 500px;
+.navigation .logo {
   position: relative;
-  z-index: 1;
-}
-.herosection::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
+  margin-left: 55px;
+  margin-top: 35px;
+  margin-right: 115px;
 }
 
-.content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-image: url("/images/Rectangle.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+header .navigation {
+  position: relative;
+  display: flex;
 }
 
-header .logo {
-  position: absolute;
-  left: 110px;
-  top: 65px;
+.navigation > div {
+  margin-left: 5px;
 }
 
-header .menu {
-  position: absolute;
-  left: 170px;
-  top: 70px;
+.navigation .paragraph {
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
-.group {
-  position: absolute;
-  top: 30px;
-  left: 430px;
+.navigation .group {
+  margin-left: 120px;
 }
-.paragraph {
-  position: absolute;
-  width: 195px;
-  height: 53px;
-  left: 608px;
-  top: 61px;
 
-  font-size: 16px;
-  line-height: 26px;
+.navigation .num {
+  margin-top: 20px;
+  margin-left: 95px;
 }
 
 .phone {
   font-size: 30px;
   line-height: 49px;
-  position: absolute;
-  right: 210px;
-  top: 50px;
 }
 
 .call {
   height: 45px;
   width: 260px;
+  margin-top: 10px;
   background: transparent;
   border: 1px solid #2a94e2;
   box-sizing: border-box;
@@ -119,86 +88,93 @@ header .menu {
 .call span {
   font-weight: bold;
 }
-.btn {
-  position: absolute;
-  right: 210px;
-  top: 110px;
+
+.herosection {
+  display: flex;
+  height: 120vh;
+  min-height: 500px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-image: url("/images/Rectangle.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .headline {
-  position: absolute;
   width: 586px;
   height: 190px;
-  left: 100px;
-  top: 170px;
   font-family: Geometrica;
-
   font-size: 45px;
   line-height: 55px;
   text-transform: uppercase;
+}
+
+.content {
+  margin-left: 100px;
+  margin-top: 180px;
 }
 
 .text {
   font-size: 22px;
   line-height: 25px;
   font-weight: 400;
-  position: absolute;
-  top: 370px;
-  left: 100px;
+}
+
+.info-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.infobox1,
+.infobox2,
+.infobox3 {
+  margin-right: 55px;
+}
+
+.infobox1,
+.infobox2,
+.infobox3 {
+  display: flex;
 }
 
 .infobox1 span {
   font-size: 60px;
   font-weight: 200;
-  position: absolute;
-  bottom: 280px;
-  left: 95px;
 }
-.infobox1 p {
-  position: absolute;
-  bottom: 290px;
-  left: 170px;
+
+.infobox1 p,
+.infobox2 p,
+.infobox3 p {
+  margin-top: 20px;
+  margin-left: 15px;
 }
 
 .infobox2 span {
   font-size: 60px;
   font-weight: 200;
-  position: absolute;
-  bottom: 280px;
-  left: 315px;
-}
-.infobox2 p {
-  position: absolute;
-  bottom: 290px;
-  left: 470px;
 }
 
 .infobox3 span {
   font-size: 60px;
   font-weight: 200;
-  position: absolute;
-  bottom: 280px;
-  left: 625px;
-}
-.infobox3 p {
-  position: absolute;
-  bottom: 290px;
-  left: 710px;
 }
 
-.wine {
-  position: absolute;
+.bonus {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bonus img {
   width: 68px;
   height: 73px;
-  left: 95px;
-  top: 550px;
 }
 .wine-text {
-  position: absolute;
-  top: 560px;
-  left: 190px;
   font-size: 16px;
   line-height: 26px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .blue {
@@ -206,25 +182,29 @@ header .menu {
   height: 50px;
   background: #2a94e2;
   border: none;
-}
-.blue span {
+  border-radius: 5px;
   color: #fff;
 }
 
 .btn1 {
-  position: absolute;
-  bottom: 80px;
-  left: 95px;
+  margin-top: 35px;
+}
+.btn1 button:hover {
+  cursor: pointer;
+  border: 1px solid #111;
+  background: transparent;
+  color: black;
 }
 
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120vh;
-  min-height: 400px;
+  height: 90vh;
+  min-height: 800px;
   position: relative;
   z-index: 1;
+  margin-top:-50px;
 }
 
 .main::before {
@@ -237,10 +217,12 @@ header .menu {
   z-index: 2;
 }
 
+.quest5 {
+  justify-content: center;
+  align-items: center;
+}
 .test {
   text-align: center;
-  position: absolute;
-  top: 30px;
   line-height: 48px;
 }
 .test h2 {
@@ -248,27 +230,90 @@ header .menu {
   font-family: Geometrica;
 }
 
-.map span {
+.map1 span {
   font-family: Geometrica;
   font-size: 18px;
   line-height: 33px;
-  margin-left: 30px;
-  margin-top: 35px;
+  margin-left: 25px;
+  margin-top: 10px;
 }
 
-.map {
-  background: #ffffff;
-  border: 3px solid #f6f6f6;
-  box-sizing: border-box;
-  width: 70%;
-  margin: 1rem auto;
-  height: 50%;
+.first,
+.second {
+  display: inline-block;
+  padding: 10px 70px;
+  margin-bottom: 15px;
 }
-.city {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 15px;
+.first {
+  margin-left: 70px;
+}
+.second {
+  margin-left: 90px;
+}
+
+.pictures hr {
+  border: 1px solid #f1f1f1;
+  width: 95%;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.maps {
+  display: flex;
+}
+.map1 {
+  background: #ffffff;
+  box-sizing: border-box;
+  width: 700px;
+  height: 415px;
+  padding-top: 15px;
+  border: 3px solid #f6f6f6;
+  border-right: none;
+}
+.map2 {
+  background: #ffffff;
+  box-sizing: border-box;
+  width: 320px;
+  height: 415px;
+  border: 3px solid #f6f6f6;
+}
+.map1 .questions {
+  font-size: 16px;
+  font-family: Geometricaa;
+}
+.map1 .questions2 {
+  font-size: 16px;
+  float:right;
+  margin-right:25px;
+  margin-top:0px;
+  color: #2A94E2;
+  font-family: Geometricaa;
+}
+
+.checkbox{
+  margin-top:30px;
+  margin-left:20px;
+  width:265px;
+}
+.item-1{
+  margin-bottom:20px;
+}
+.item-1 p{
+  margin-left:60px;
+  margin-top:-40px;
+}
+
+
+
+
+.pictures img {
+  width: 314px;
+  height: 207px;
+  margin-left: 15px;
+}
+.pictures {
+  margin-top: 25px;
+  margin-left: 10px;
 }
 
 .uslugi {
@@ -404,7 +449,7 @@ header .menu {
 }
 
 .apartment {
-  height: 400vh;
+  height: 375vh;
 }
 
 .moscow-city {
@@ -443,27 +488,33 @@ header .menu {
 
 .rooms {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: minmax(200px, auto);
+  justify-content: center;
+  grid-template-columns: repeat(2, 400px);
+  grid-auto-rows: repeat(10, 250px);
   grid-gap: 2.8rem;
-  margin-top: 20px;
-  margin-left: 225px;
+  margin-right: 48px;
+  margin-top: 25px;
 }
 
 .card {
   display: flex;
+  justify-content: space-between;
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
   grid-column-start: 1;
+  grid-column-end: 2;
   height: 390px;
+  width: 300px;
 }
 .card2 {
-  margin-left: 68px;
+  margin-left: 10px;
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
+  height: 390px;
+  width: 300px;
 }
 
 .thumbnail img {
@@ -496,8 +547,8 @@ header .menu {
 
 .card-content .etaj {
   position: absolute;
-  right: -80px;
-  bottom: 10px;
+  right: -120px;
+  bottom: 16px;
   line-height: 38px;
 }
 
@@ -533,8 +584,8 @@ header .menu {
 
 .card-content .etaj2 {
   position: absolute;
-  right: -153px;
-  bottom: 45px;
+  right: -133px;
+  bottom: 15px;
   line-height: 38px;
 }
 
@@ -544,7 +595,7 @@ header .menu {
   border: none;
   font-weight: 600;
   margin-left: 225px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .apartment .show-more:hover {
@@ -560,18 +611,17 @@ header .menu {
 }
 
 .about {
-  height: 80vh;
+  max-height: 80vh;
 }
 
 .about-info {
-  margin-top: -35px;
-  background: #f6f6f6;
-  height: 480px;
+  display: flex;
   justify-content: center;
+  background: #f6f6f6;
+  max-height: 520px;
 }
 
 .about-text {
-  margin-left: 180px;
   margin-top: 55px;
   width: 500px;
   float: left;
@@ -667,6 +717,7 @@ header .menu {
   font-family: Geometrica;
   text-align: center;
   font-size: 22px;
+  margin-top: 30px;
 }
 
 .agency .content2 {
@@ -676,7 +727,7 @@ header .menu {
   grid-template-rows: repeat(8, 200px);
   grid-gap: 0.8rem;
   margin-top: 30px;
-  }
+}
 
 .agency .content2 .item {
   background: #ffffff;
