@@ -67,7 +67,7 @@ header .navigation {
   margin-top: 35px;
   margin-left: 25px;
   white-space: nowrap;
-  margin-right: 25px;
+  margin-right: 55px;
 }
 
 .navigation .group {
@@ -75,18 +75,20 @@ header .navigation {
 }
 
 .navigation .num {
-  margin:15px auto;
+  margin:auto;
+  display: block;
 }
 
 .phone {
   font-size: 30px;
   line-height: 49px;
+  display: block;
 }
 
 .call {
   height: 45px;
   width: 260px;
-  margin-top: 10px;
+  margin: auto;
   background: transparent;
   border: 1px solid #2a94e2;
   box-sizing: border-box;
@@ -516,6 +518,10 @@ header .navigation {
   width: 300px;
 }
 
+.card:hover,.card2:hover{
+  cursor: pointer;
+}
+
 .thumbnail img {
   height: 220px;
   width: 435px;
@@ -852,21 +858,22 @@ header .navigation {
 
 .footer {
   max-height: 32vh;
-  margin: 0px auto;
+  margin:auto;
 }
 .footer-main {
   background: #535860;
-  height: 32vh;
+  height: 27vh;
   display: flex;
   padding: 10px;
+  margin: auto;
 }
 .footer-left {
   float: left;
   width: 300px;
-  margin: 0px auto;
+  margin:auto;
 }
 .footer-logo {
-  margin: 25px auto;
+  margin:auto;
   display: flex;
 }
 .footer-logo .icon-text {
@@ -882,7 +889,7 @@ header .navigation {
 }
 .footer-mail {
   width: 300px;
-  margin: 15px auto;
+  margin:auto;
   text-align: center;
 }
 .footer-mail .phone {
@@ -896,6 +903,7 @@ header .navigation {
   background-color: #f1f1f1;
   color: #111;
   border: none;
+  margin-top: 15px;
 }
 .footer-mail .call:hover {
   background: transparent;
