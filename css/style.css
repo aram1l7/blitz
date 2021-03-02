@@ -16,10 +16,9 @@
   }
 }
 
-section{
+section {
   padding: 50px auto;
 }
-
 
 * {
   font-family: Geometricaa;
@@ -38,7 +37,7 @@ header {
   display: flex;
   padding: 25px 50px;
   margin-bottom: -245px;
-  margin-top:20px;
+  margin-top: 20px;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
@@ -50,9 +49,9 @@ header {
   margin-top: 35px;
   margin-right: 115px;
 }
-.navigation .menu{
+.navigation .menu {
   margin-top: 40px;
-  margin-left:-100px;
+  margin-left: -100px;
 }
 
 header .navigation {
@@ -68,6 +67,7 @@ header .navigation {
   margin-top: 35px;
   margin-left: 25px;
   white-space: nowrap;
+  margin-right: 25px;
 }
 
 .navigation .group {
@@ -75,8 +75,7 @@ header .navigation {
 }
 
 .navigation .num {
-  margin-top: 20px;
-  margin-left: 85px;
+  margin:15px auto;
 }
 
 .phone {
@@ -96,7 +95,7 @@ header .navigation {
 .call:hover {
   cursor: pointer;
   background-color: #2a94e2;
-  color:#fff;
+  color: #fff;
 }
 .call span {
   font-weight: bold;
@@ -191,14 +190,14 @@ header .navigation {
 }
 
 .blue {
-  margin-top:25px;
+  margin-top: 25px;
   width: 300px;
   height: 50px;
   background: #2a94e2;
   border: none;
   border-radius: 5px;
   color: #fff;
-  font-size:15px;
+  font-size: 15px;
 }
 
 .blue:hover {
@@ -215,10 +214,9 @@ header .navigation {
   max-height: 100vh;
   position: relative;
   z-index: 1;
-  margin-top:30px;
-  margin-bottom:35px;
+  margin-top: 30px;
+  margin-bottom: 35px;
 }
-
 
 .quest5 {
   justify-content: center;
@@ -264,7 +262,7 @@ header .navigation {
 .maps {
   display: flex;
   margin-bottom: 10px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 .map1 {
   background: #ffffff;
@@ -288,24 +286,24 @@ header .navigation {
 }
 .map1 .questions2 {
   font-size: 16px;
-  float:right;
-  margin-right:25px;
-  margin-top:0px;
-  color: #2A94E2;
+  float: right;
+  margin-right: 25px;
+  margin-top: 0px;
+  color: #2a94e2;
   font-family: Geometricaa;
 }
 
-.checkbox{
-  margin-top:30px;
-  margin-left:20px;
-  width:265px;
+.checkbox {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 265px;
 }
-.item-1{
-  margin-bottom:20px;
+.item-1 {
+  margin-bottom: 20px;
 }
-.item-1 p{
-  margin-left:60px;
-  margin-top:-40px;
+.item-1 p {
+  margin-left: 60px;
+  margin-top: -40px;
 }
 .pictures img {
   width: 314px;
@@ -450,7 +448,6 @@ header .navigation {
 
 .apartment {
   max-height: 375vh;
-  
 }
 
 .moscow-city {
@@ -547,7 +544,6 @@ header .navigation {
   line-height: 35px;
 }
 
-
 .card-content .money {
   font-weight: 300;
   font-size: 31px;
@@ -577,14 +573,13 @@ header .navigation {
   cursor: pointer;
   color: #fff;
 }
-.card-content .etaj, .card-content .etaj2 {
+.card-content .etaj,
+.card-content .etaj2 {
   position: absolute;
   right: -133px;
   bottom: 15px;
   line-height: 38px;
 }
-
-
 
 .apartment .show-more {
   width: 893px;
@@ -592,7 +587,7 @@ header .navigation {
   border: none;
   font-weight: 600;
   margin-top: 10px;
-  margin-bottom:25px;
+  margin-bottom: 25px;
 }
 
 .apartment .show-more:hover {
@@ -735,113 +730,112 @@ header .navigation {
   border-radius: 10px;
 }
 
-.agency .content2 .item h3{
-  margin-top:15px;
-  margin-left:25px;
-  font-size:16px;
+.agency .content2 .item h3 {
+  margin-top: 15px;
+  margin-left: 25px;
+  font-size: 16px;
   font-family: Geometrica;
-  white-space:pre-line;
+  white-space: pre-line;
 }
-.titles{
-  margin-top:50px;
-  margin-left:25px;
+.titles {
+  margin-top: 50px;
+  margin-left: 25px;
 }
 
-.titles span{
-  font-size:13px;
+.titles span {
+  font-size: 13px;
   line-height: 25px;
-  color:rgb(134, 134, 134);
+  color: rgb(134, 134, 134);
 }
 
-.titles .mob{
-  margin-top:15px;
-  font-size:25px;
-  margin-bottom:5px;
+.titles .mob {
+  margin-top: 15px;
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 
-.titles .mail{
+.titles .mail {
   text-decoration: underline;
-  color:black;
+  color: black;
 }
 
-.titles img{
-  float:right;
-  width:100px;
+.titles img {
+  float: right;
+  width: 100px;
   height: 100px;
-  margin-right:35px;
-  margin-top:15px;
+  margin-right: 35px;
+  margin-top: 15px;
 }
 
-.titles .special{
+.titles .special {
   height: 130px;
   margin-top: 0px;
 }
-.titles .special2{
-  width:137px;
+.titles .special2 {
+  width: 137px;
   margin-right: 15px;
-  height:89px;
+  height: 89px;
   margin-top: 0px;
-
 }
 
-.links{
+.links {
   display: flex;
   justify-content: center;
   width: 900px;
-  height:100px;
-  margin:30px auto;
+  height: 100px;
+  margin: 30px auto;
 }
 
-.links p{
-  margin-left:20px;
-  color:#2A94E2;
+.links p {
+  margin-left: 20px;
+  color: #2a94e2;
   text-decoration: underline;
   line-height: 36px;
 }
-.links p:hover{
+.links p:hover {
   text-decoration: none;
   cursor: pointer;
 }
 
-.leader{
-  max-height:75vh;
+.leader {
+  max-height: 75vh;
 }
 
-.leader-info{
+.leader-info {
   display: flex;
   justify-content: center;
-  background: #EEF3FA;
+  background: #eef3fa;
   height: 495px;
 }
-.leader-text{
+.leader-text {
   width: 650px;
-  float: left; 
-  margin-top:40px;
+  float: left;
+  margin-top: 40px;
 }
-.leader-text h3{
+.leader-text h3 {
   font-family: Geometrica;
-  font-size:22px;
-  line-height: 35px; 
-}
-.leader-text h4{
-  font-family: Geometrica;
-  margin-top:20px;
+  font-size: 22px;
   line-height: 35px;
 }
-.leader-text p{
- line-height: 25px;
- margin-bottom:15px;
+.leader-text h4 {
+  font-family: Geometrica;
+  margin-top: 20px;
+  line-height: 35px;
+}
+.leader-text p {
+  line-height: 25px;
+  margin-bottom: 15px;
 }
 
-.leader-image{
-  float:right;
+.leader-image {
+  float: right;
   margin-top: 79px;
 }
-.leader-image img{
+.leader-image img {
   width: 335px;
-  height:414px;
+  height: 414px;
 }
-.leader-text button{
+.leader-text button {
   background-color: #2a94e2;
   border: none;
   color: #fff;
@@ -849,64 +843,62 @@ header .navigation {
   height: 40px;
   border-radius: 3px;
 }
-.leader-text button:hover{
+.leader-text button:hover {
   cursor: pointer;
   background: transparent;
-  border:2px solid #2a94e2;
-  color:black;
+  border: 2px solid #2a94e2;
+  color: black;
 }
 
-.footer{
-  max-height:32vh;
+.footer {
+  max-height: 32vh;
+  margin: 0px auto;
 }
-.footer-main{
+.footer-main {
   background: #535860;
-  height:32vh;
+  height: 32vh;
   display: flex;
-  padding:10px;
+  padding: 10px;
 }
-.footer-left{
-  float:left;
-  width:300px;
-  margin-top:15px;
-  margin-left:170px;
+.footer-left {
+  float: left;
+  width: 300px;
+  margin: 0px auto;
 }
-.footer-logo{
-  margin-left:50px;
+.footer-logo {
+  margin: 25px auto;
   display: flex;
-  margin-top:40px;
 }
-.footer-logo .icon-text{
-  margin-top:30px;
-  color:white;
-  margin-left:20px;
+.footer-logo .icon-text {
+  margin-top: 30px;
+  color: white;
+  margin-left: 20px;
   line-height: 25px;
 }
 .footer-left p {
-  margin-bottom:20px;
-  white-space:pre-line;
-  color:white;
+  margin-bottom: 20px;
+  white-space: pre-line;
+  color: white;
 }
-.footer-mail{
+.footer-mail {
   width: 300px;
-  margin-top:30px;
-  margin-left:45px;  
+  margin: 15px auto;
   text-align: center;
 }
-.footer-mail .phone{
-  color:white;
+.footer-mail .phone {
+  color: white;
 }
-.footer-mail .email{
-  color:white;
+.footer-mail .email {
+  color: white;
   text-decoration: underline;
 }
-.footer-mail .call{
+.footer-mail .call {
   background-color: #f1f1f1;
-  color:#111;
+  color: #111;
   border: none;
 }
-.footer-mail .call:hover{
+.footer-mail .call:hover {
   background: transparent;
-  border:2px solid #fff;
-  color:#f6f6f6;
+  border: 2px solid #fff;
+  color: #f6f6f6;
 }
